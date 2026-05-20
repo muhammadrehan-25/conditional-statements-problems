@@ -6,13 +6,12 @@ int main(){
  double amount;
 	cout<<" enter your acount balance = ";
 	cin>>balance;
-	
 	cout<<" Now what would you do? \n";
 	cout<<" 1. withdraw \n";
 		cout<<" 2. deposit \n";
 		cout<<" 3. cheak balance \n";
 		cout<<" 4. exist \n";
-cout<<" Enter your choices "<<endl;
+cout<<" Enter your choices! "<<endl;
  cin>>a;	
 if(a==1 ){
 	cout<<" enter your withdrawl amount "<<endl;
@@ -23,7 +22,6 @@ if(a==1 ){
 	     	balance=balance-amount;
 	     	cout<<" Withdrawl succesfully.Your new balance is = "<<balance<<endl;
 	}
-      
 }
 else if(a==2){
 	cout<<" enter your deposit amount "<<endl;
@@ -36,10 +34,8 @@ else if(a==3){
 }
 else if (a==4){
 	cout<<" Thankyou  for your concentration ";
-
 }
 else{
 	cout<<" Invalid Option";
-}
-	
+}	
 }
